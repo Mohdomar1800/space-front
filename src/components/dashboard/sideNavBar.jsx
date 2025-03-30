@@ -25,7 +25,7 @@ function SideNavBar() {
         </Link>
       </div>
 
-      <Link to="/create-meeting">
+      <Link to="/create">
         <Button className="flex items-center gap-2 w-full mt-8 rounded-full text-lg font-medium transition-all hover:scale-105">
           <Plus className="w-5 h-5" />
         </Button>
