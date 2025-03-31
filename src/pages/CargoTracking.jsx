@@ -4,12 +4,10 @@ import CargoManager from "../components/cargo/CargoManager";
 function CargoTracking() {
   return (
     <div className="flex">
-      {/* Sidebar */}
       <div className="hidden md:block md:w-64 bg-slate-50 h-screen fixed">
         <SideNavBar />
       </div>
 
-      {/* Main Content */}
       <div className="flex-1 ml-64 p-4">
         <CargoManager />
       </div>
